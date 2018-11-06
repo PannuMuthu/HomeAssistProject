@@ -65,7 +65,7 @@ const handlers = {
             this.attributes.healthscores.scores['sleeping'].score = sleepingScore;
             this.attributes.healthscores.scores['breathing'].score = breathingScore;
             this.attributes.healthscores.scores['swollen'].score = swollenScore;
-
+            this.attributes.healthscores.timestamp = Date.now();
             //var request = require('request');
             //request.post('http://cms3.dclhealth.com/alexa_get/alexa_get_insert.php?patient_id=' + id + '&response1=' + feelingScore + '&response2' + sleepingScore);
             
